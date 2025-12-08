@@ -42,7 +42,7 @@ namespace Tyuiu.ChepragaDM.Sprint6.Task2.V14
             private void buttonSpravka_CDM_Click(object sender, EventArgs e)
             {
             MessageBox.Show("Таск 2  выполнил студент группы ИБКСб-25-1 Чепрага Дмитрий Максимович", "Сообщение ", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
+            } 
     }
 }
 

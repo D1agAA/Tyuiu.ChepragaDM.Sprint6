@@ -9,7 +9,8 @@ namespace Tyuiu.ChepragaDM.Sprint6.Task1.V8.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            double[] wait = [-36.41 ,-22.07 ,5.68 ,16.72 ,0.00,-0.50, 9.63,16.29 ,5.01,-22.40 ,-36.30];
+            double[] wait = [-36.41, -22.07, 5.68, 16.72, 8.35, -0.5, 9.63, 16.29, 5.01, -22.4, -36.3]
+;
             int start = -5;
             int stop = 5;
             double[] res = ds.GetMassFunction(start, stop);

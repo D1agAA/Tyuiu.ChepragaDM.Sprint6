@@ -10,7 +10,7 @@ namespace Tyuiu.ChepragaDM.Sprint6.Task1.V8.Lib
             for (int i = startValue; i <= stopValue; i++)
             {
                 double f = 0;
-                if (i + 1 != 0)
+                if (i - 0.4 != 0)
                 {
                     f = Math.Round((Math.Cos(i) / (i - 0.4)) + Math.Sin(i) * (8 * i) + 2, 2);
                 }

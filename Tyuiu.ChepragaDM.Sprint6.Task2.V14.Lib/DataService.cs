@@ -12,7 +12,7 @@ namespace Tyuiu.ChepragaDM.Sprint6.Task2.V14.Lib
                 double f = 0;
                 if (((2 * i) - 0.5) != 0)
                 {
-                    f = Math.Round(5 - (3*i) + (1 + Math.Sin(i) / ((2 * i) - 0.5)), 2);
+                    f = Math.Round(5 - (3*i) + ((1 + Math.Sin(i)) / ((2 * i) - 0.5)), 2);
                 }
                 res[count++] = f;
 

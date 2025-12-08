@@ -11,7 +11,7 @@ namespace Tyuiu.ChepragaDM.Sprint6.Task0.V3
 
         private void buttonVipolnit_CDM_Click(object sender, EventArgs e)
         {
-            DataService ds = new DataService();
+            DataService ds = new DataService(); 
             try
             {
                 textBoxResult_CDM.Text = Convert.ToString(ds.Calculate(Convert.ToInt32(textBoxPeremennayaX_CDM.Text)));

@@ -8,6 +8,6 @@ namespace Tyuiu.ChepragaDM.Sprint6.Task0.V3.Lib
 
             var res = (4 * Math.Pow(x, 3)) / (Math.Pow(x, 3) - 1);
             return Math.Round(res, 3);
-        }
+        } 
     }
 }

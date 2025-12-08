@@ -8,30 +8,26 @@ namespace Tyuiu.ChepragaDM.Sprint6.Task3.V17.Lib
             int rows = matrix.GetLength(0);
             int cols = matrix.GetLength(1);
 
-            
-            List<(int value, int rowIndex)> columnData = new List<(int, int)>();
+          
+            int[,] result = (int[,])matrix.Clone();
 
+           
+            int[] fourthColumn = new int[rows];
             for (int i = 0; i < rows; i++)
             {
-                columnData.Add((matrix[i, 3], i));
+                fourthColumn[i] = matrix[i, 3];
             }
 
-          
-            var sortedColumnData = columnData.OrderBy(x => x.value).ToList();
+           
+            Array.Sort(fourthColumn);
 
-          
-            int[,] sortedMatrix = new int[rows, cols];
-
-            for (int newRow = 0; newRow < rows; newRow++)
+           
+            for (int i = 0; i < rows; i++)
             {
-                int oldRow = sortedColumnData[newRow].rowIndex;
-                for (int j = 0; j < cols; j++)
-                {
-                    sortedMatrix[newRow, j] = matrix[oldRow, j];
-                }
+                result[i, 3] = fourthColumn[i];
             }
 
-            return sortedMatrix;
+            return result;
         }
     }
 }

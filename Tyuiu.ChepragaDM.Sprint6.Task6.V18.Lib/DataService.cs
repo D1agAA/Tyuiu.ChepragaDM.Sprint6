@@ -31,7 +31,7 @@ namespace Tyuiu.ChepragaDM.Sprint6.Task6.V18.Lib
             foreach (string word in words)
             {
             
-                if (word.ToLower().Contains('n'))
+                if (word.Contains('n'))
                 {
                     if (result.Length > 0)
                     {

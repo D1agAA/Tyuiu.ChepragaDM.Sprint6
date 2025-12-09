@@ -89,7 +89,7 @@
             buttonVipolnit_CDM.TabIndex = 1;
             toolTip_CDM.SetToolTip(buttonVipolnit_CDM, "Производит вывод слов в файле, в которых встречается n в результирующую строуку");
             buttonVipolnit_CDM.UseVisualStyleBackColor = true;
-            buttonVipolnit_CDM.Click += buttonDone_GYA_Click;
+            buttonVipolnit_CDM.Click += buttonVipolnit_CDM_Click;
             // 
             // buttonOpen_CDM
             // 

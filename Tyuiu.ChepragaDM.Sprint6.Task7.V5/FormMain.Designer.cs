@@ -81,6 +81,7 @@
             buttonVipolnit_CDM.Name = "buttonVipolnit_CDM";
             buttonVipolnit_CDM.Size = new Size(70, 66);
             buttonVipolnit_CDM.TabIndex = 10;
+            toolTip.SetToolTip(buttonVipolnit_CDM, "Выполнить замену в последнем столбце всех значений меньше 2 на 2\r\n");
             buttonVipolnit_CDM.UseVisualStyleBackColor = true;
             buttonVipolnit_CDM.Click += buttonVipolnit_CDM_Click;
             buttonVipolnit_CDM.MouseEnter += buttonVipolnit_CDM_MouseEnter;
@@ -105,6 +106,7 @@
             buttonOpen_CDM.Name = "buttonOpen_CDM";
             buttonOpen_CDM.Size = new Size(68, 66);
             buttonOpen_CDM.TabIndex = 9;
+            toolTip.SetToolTip(buttonOpen_CDM, "Загрузить файл с устройства \r\n");
             buttonOpen_CDM.UseVisualStyleBackColor = true;
             buttonOpen_CDM.Click += buttonOpen_CDM_Click;
             buttonOpen_CDM.MouseEnter += buttonOpen_CDM_MouseEnter;
@@ -118,6 +120,7 @@
             buttonSave_CDM.Name = "buttonSave_CDM";
             buttonSave_CDM.Size = new Size(63, 66);
             buttonSave_CDM.TabIndex = 2;
+            toolTip.SetToolTip(buttonSave_CDM, "Сохранить файл");
             buttonSave_CDM.UseVisualStyleBackColor = true;
             buttonSave_CDM.Click += buttonSave_CDM_Click;
             // 

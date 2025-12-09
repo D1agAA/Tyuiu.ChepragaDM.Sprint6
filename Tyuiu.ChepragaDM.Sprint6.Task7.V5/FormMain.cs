@@ -125,17 +125,17 @@ namespace Tyuiu.ChepragaDM.Sprint6.Task7.V5
 
         private void buttonOpen_CDM_MouseEnter(object sender, EventArgs e)
         {
-            toolTip.ToolTipTitle = "??????? ????";
+            toolTip.ToolTipTitle = "Подсказка";
         }
 
         private void buttonVipolnit_CDM_MouseEnter(object sender, EventArgs e)
         {
-            toolTip.ToolTipTitle = "?????????";
+            toolTip.ToolTipTitle = "Подсказка";
         }
 
         private void buttonSave_CDM_MouseEnter(object sender, MouseEventArgs e)
         {
-            toolTip.ToolTipTitle = "????????? ? ????";
+            toolTip.ToolTipTitle = "Подсказка";
         }
 
         private void buttonSpravka_CDM_Click(object sender, EventArgs e)
@@ -146,7 +146,7 @@ namespace Tyuiu.ChepragaDM.Sprint6.Task7.V5
         }
         private void buttonSpravka_CDM_MouseEnter(Object sender, EventArgs e)
         {
-            toolTip.ToolTipTitle = "???????";
+            toolTip.ToolTipTitle = "Подсказка";
 
         }
     }

@@ -144,6 +144,9 @@
         RK5CYII=
 </value>
   </data>
+  <metadata name="toolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>291, 17</value>
+  </metadata>
   <data name="buttonSpravka_CDM.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAC0AAAArCAYAAADsQwGHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
@@ -227,7 +230,7 @@
   <data name="buttonSave_CDM.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAD0AAAA+CAYAAACY9hNHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wgAADsIBFShKgAAABJhJREFUaEPtm8lK9EAUhfsJfBFnXYiIA+K0E9GVEw6giFvBceNK0a3D3idQNyqK
+        wQAADsEBuJFr7QAABJhJREFUaEPtm8lK9EAUhfsJfBFnXYiIA+K0E9GVEw6giFvBceNK0a3D3idQNyqK
         A4JuVEQR3bgQJ1Bxnqf7cy7ckK4eUtHudP8mB47dJpW690tlqFSqfQkJCdTf30/Hx8f01wVGsPrwx23y
         uaGFVfnUBW6QB+0WedBu0a+gv7+//Wxe/vX19WOHihEp2Ya+v7+nlZUVGh8fp4GBAcPT09NGwrgNDg4O
         srFOvuv69vaW6wHoxMQE14F4q6ur9Pz8rGRkX7agDw4OqKmpibKzsyk9PZ2Sk5MNd3d30+fnJ5fb3Nyk
@@ -259,8 +262,5 @@
   </metadata>
   <metadata name="saveFileDialogTask_CDM.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>156, 17</value>
-  </metadata>
-  <metadata name="toolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>291, 17</value>
   </metadata>
 </root>

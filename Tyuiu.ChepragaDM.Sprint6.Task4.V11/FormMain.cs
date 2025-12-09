@@ -74,7 +74,7 @@ namespace Tyuiu.ChepragaDM.Sprint6.Task4.V11
 
                 File.WriteAllText(path, textBoxResult_CDM.Text);
 
-                DialogResult dialogResult = MessageBox.Show(" файл " + path + " сохранено успешно\nОткрыть его?", "Сохранение" , MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+                DialogResult dialogResult = MessageBox.Show(" файл " + path + " сохранено успешно\nОткрыть его?", "Сохранение", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
 
                 if (dialogResult == DialogResult.Yes)
                 {
@@ -91,6 +91,9 @@ namespace Tyuiu.ChepragaDM.Sprint6.Task4.V11
             }
         }
 
-        
+        private void textBoxUslovie_CDM_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

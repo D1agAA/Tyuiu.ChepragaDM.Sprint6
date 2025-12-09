@@ -117,11 +117,23 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="labelInfo_CDM.Text" xml:space="preserve">
+    <value>Разработчик: Чепрага Д.М.
+Группа: ИБКСб-25-1
+
+Программа разработана в рамках изучения языка C#
+
+Тюменский Индустриальный Университет 2025
+Высшая школа цифровых технологий 2025
+
+Внутреннее имя: Tyuiu.ChepragaDM.Sprint6.Task6.V18
+</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBoxAva_CDM.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAK0AAADQCAYAAAB1E+FcAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wQAADsEBuJFr7QAA2SdJREFUeF58/XWzJce5LXqvb3Hj3Hf7eBtltiXZFljM2MzMzKwGtbrFzMwtZnWL
+        vwAADr8BOAVTJAAA2SdJREFUeF58/XWzJce5LXqvb3Hj3Hf7eBtltiXZFljM2MzMzKwGtbrFzMwtZnWL
         ocVk730j7jfKN35PzbE6va72+SOj5qxZsyBz5MjxQGaNPf30E+2pp55ozzzzdHvuuefaSy+90F5++aX2
         0ksvtRdffKm9/PLL4+WVV14Z//ziiy/WMfZl/6uvvtreeOON9uabb7a33367HT16tL333nvt448/bp9+
         +mn75JNP2vHjx9tXX33Vvvjii/b5559X8dl+xWe/f/XVl+3LL7+o8vXXX7Wvv/669mfruM8++6zO+dFH
@@ -1049,19 +1061,6 @@
         E2A6KPNSAsE3iC6+xTzDsNEVhKMxhBdi2N79iKPED8QTKXw9TuLb9xTSmWtcZXQBvmK5jrxeRrZQQk4v
         wyjXZWT1MtJZHXnjBrpRAatoKvU/qDbuUSjVUKo2UGmykU1T2t1mibZ5HX8BXNgtsh7jGk0AAAAASUVO
         RK5CYII=
-</value>
-  </data>
-  <data name="labelInfo_CDM.Text" xml:space="preserve">
-    <value>Разработчик: Чепрага Д.М.
-Группа: ИБКСб-25-1
-
-Программа разработана в рамках изучения языка C#
-
-Тюменский Индустриальный Университет 2025
-Высшая школа цифровых технологий 2025
-
-Внутреннее имя: Tyuiu.ChepragaDM.Sprint6.Task7.V5
-
 </value>
   </data>
 </root>

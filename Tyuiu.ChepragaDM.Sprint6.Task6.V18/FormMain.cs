@@ -20,7 +20,7 @@ namespace Tyuiu.ChepragaDM.Sprint6.Task6.V18
             buttonVipolnit_CDM.Enabled = true;
         }
 
-        private void buttonDone_GYA_Click(object sender, EventArgs e)
+        private void buttonVipolnit_CDM_Click(object sender, EventArgs e)
         {
 
             string str = "";

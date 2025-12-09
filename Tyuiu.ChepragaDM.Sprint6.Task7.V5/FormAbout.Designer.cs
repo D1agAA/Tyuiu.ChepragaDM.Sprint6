@@ -1,4 +1,4 @@
-﻿namespace Tyuiu.ChepragaDM.Sprint6.Task6.V18
+﻿namespace Tyuiu.ChepragaDM.Sprint6.Task7.V5
 {
     partial class FormAbout
     {
@@ -29,21 +29,20 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAbout));
-            buttonOk_CDM = new Button();
-            pictureBoxAva_CDM = new PictureBox();
             labelInfo_CDM = new Label();
+            pictureBoxAva_CDM = new PictureBox();
+            buttonOk_CDM = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBoxAva_CDM).BeginInit();
             SuspendLayout();
             // 
-            // buttonOk_CDM
+            // labelInfo_CDM
             // 
-            buttonOk_CDM.Location = new Point(395, 162);
-            buttonOk_CDM.Name = "buttonOk_CDM";
-            buttonOk_CDM.Size = new Size(83, 28);
-            buttonOk_CDM.TabIndex = 0;
-            buttonOk_CDM.Text = "Ok";
-            buttonOk_CDM.UseVisualStyleBackColor = true;
-            buttonOk_CDM.Click += buttonOk_CDM_Click;
+            labelInfo_CDM.AutoSize = true;
+            labelInfo_CDM.Location = new Point(194, 12);
+            labelInfo_CDM.Name = "labelInfo_CDM";
+            labelInfo_CDM.Size = new Size(302, 135);
+            labelInfo_CDM.TabIndex = 5;
+            labelInfo_CDM.Text = resources.GetString("labelInfo_CDM.Text");
             // 
             // pictureBoxAva_CDM
             // 
@@ -51,32 +50,32 @@
             pictureBoxAva_CDM.Location = new Point(12, 12);
             pictureBoxAva_CDM.Name = "pictureBoxAva_CDM";
             pictureBoxAva_CDM.Size = new Size(162, 166);
-            pictureBoxAva_CDM.TabIndex = 1;
+            pictureBoxAva_CDM.TabIndex = 4;
             pictureBoxAva_CDM.TabStop = false;
             // 
-            // labelInfo_CDM
+            // buttonOk_CDM
             // 
-            labelInfo_CDM.AutoSize = true;
-            labelInfo_CDM.Location = new Point(180, 9);
-            labelInfo_CDM.Name = "labelInfo_CDM";
-            labelInfo_CDM.Size = new Size(302, 150);
-            labelInfo_CDM.TabIndex = 2;
-            labelInfo_CDM.Text = resources.GetString("labelInfo_CDM.Text");
+            buttonOk_CDM.Location = new Point(454, 159);
+            buttonOk_CDM.Name = "buttonOk_CDM";
+            buttonOk_CDM.Size = new Size(83, 28);
+            buttonOk_CDM.TabIndex = 3;
+            buttonOk_CDM.Text = "Ok";
+            buttonOk_CDM.UseVisualStyleBackColor = true;
+            buttonOk_CDM.Click += buttonOk_CDM_Click;
             // 
             // FormAbout
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(491, 198);
+            ClientSize = new Size(545, 196);
             Controls.Add(labelInfo_CDM);
             Controls.Add(pictureBoxAva_CDM);
             Controls.Add(buttonOk_CDM);
-            FormBorderStyle = FormBorderStyle.FixedDialog;
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "FormAbout";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "О программе";
+            Text = "FormAbout";
             ((System.ComponentModel.ISupportInitialize)pictureBoxAva_CDM).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -84,8 +83,8 @@
 
         #endregion
 
-        private Button buttonOk_CDM;
-        private PictureBox pictureBoxAva_CDM;
         private Label labelInfo_CDM;
+        private PictureBox pictureBoxAva_CDM;
+        private Button buttonOk_CDM;
     }
 }
